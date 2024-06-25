@@ -5,7 +5,7 @@ const submit = document.getElementById("inputForm")
 
 // Validação do formulario:
 const validation = () =>{
-    if(numberB.valuer > numberA.value){
+    if(numberB.value > numberA.value){
         alert("Formulário valido")
     }else{
         alert("Formulário inválido")
